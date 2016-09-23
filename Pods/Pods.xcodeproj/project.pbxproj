@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74CE5CDE8589E6AE095D5660C5826F3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7EC22C6F3F94635F26C1778BEB72C620 /* Pods-FriendlyChatSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 839D3C4C858C2C3723B8D877A770322D /* Pods-FriendlyChatSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E097F3E10BF98FCAA0AAC69FEAE93DE /* Pods-FriendlyChatSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C619729F09C96194CE788857CB501698 /* Pods-FriendlyChatSwift-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03689C417845BF129EDCD8BEFC9FDAE4 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		0562A09F132F45237533EE2BB89D3144 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		14179A97C3D88DBC246AA99E56724B60 /* Pods-FriendlyChatSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FriendlyChatSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17077CBFF2B725E3B6396E54AF4D310D /* Pods-FriendlyChatSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FriendlyChatSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		2BBC336F86924F2A97D0A3CCD4BF2222 /* Pods-FriendlyChatSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FriendlyChatSwift.modulemap"; sourceTree = "<group>"; };
+		44A3BA46C93D467F8AC8110CA6B07610 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		4AEA2772CC574D6967520754D7391237 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		4DDA7B8DB12D0A60C091DEE72FBD5E1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7716201FD387B6D0A305C95215616A9A /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
+		77D8CFD62DBE7B74765C681924FA3310 /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleIPhoneUtilities.framework; path = Frameworks/GoogleIPhoneUtilities.framework; sourceTree = "<group>"; };
+		7C4F50420ADA8C3023A4C452505EC067 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		839D3C4C858C2C3723B8D877A770322D /* Pods-FriendlyChatSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FriendlyChatSwift-umbrella.h"; sourceTree = "<group>"; };
+		86DD4170CBC7BCF5E4DD031956B6E168 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		8A2BA0A18657ADFF98EC02B44482DD42 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		8F3EB0713F8EB7465904BF4B4881C746 /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseRemoteConfig.framework; path = Frameworks/FirebaseRemoteConfig.framework; sourceTree = "<group>"; };
+		91FE1C734ED5478A578556DEA6614DDC /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7FD5FE5774D3FACEEDCF6C082D90712 /* FirebaseCrash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCrash.framework; path = Frameworks/FirebaseCrash.framework; sourceTree = "<group>"; };
+		AAF3A4BBDF369F163BCA8E46EA6D108C /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		B4B3D757FB0FA35B919BF4DA7B307070 /* Pods-FriendlyChatSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FriendlyChatSwift-resources.sh"; sourceTree = "<group>"; };
+		B839D684F26F169115F65E62F4CFBC84 /* Pods-FriendlyChatSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FriendlyChatSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		B8F2241E9A2FCE8AF53834B1C386AF8A /* Pods_FriendlyChatSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendlyChatSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C619729F09C96194CE788857CB501698 /* Pods-FriendlyChatSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FriendlyChatSwift-dummy.m"; sourceTree = "<group>"; };
+		CEBFFB7C53143404DDD3A9C027FD42B6 /* Pods-FriendlyChatSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FriendlyChatSwift.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DCFCAC3822AC5B6CF049DF7CA37EF4D5 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		E175014DAEE11F6061CE00989B227505 /* Pods-FriendlyChatSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FriendlyChatSwift-frameworks.sh"; sourceTree = "<group>"; };
+		EBC71340B264FDF526647D0F10543B07 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		F859552E2784A3F7EC695253871110CF /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F688B7A7D9A45C81E3AE9D8009638B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CE5CDE8589E6AE095D5660C5826F3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095B5EBCF5AF2C186D3608CB207B33F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AEA2772CC574D6967520754D7391237 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09FCD4BAAA003BAE3CDE31D1CA835130 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A0F4900B01C5DF50FCAE772CD39DCBE /* Pods-FriendlyChatSwift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0A0F4900B01C5DF50FCAE772CD39DCBE /* Pods-FriendlyChatSwift */ = {
+			isa = PBXGroup;
+			children = (
+				4DDA7B8DB12D0A60C091DEE72FBD5E1F /* Info.plist */,
+				2BBC336F86924F2A97D0A3CCD4BF2222 /* Pods-FriendlyChatSwift.modulemap */,
+				14179A97C3D88DBC246AA99E56724B60 /* Pods-FriendlyChatSwift-acknowledgements.markdown */,
+				17077CBFF2B725E3B6396E54AF4D310D /* Pods-FriendlyChatSwift-acknowledgements.plist */,
+				C619729F09C96194CE788857CB501698 /* Pods-FriendlyChatSwift-dummy.m */,
+				E175014DAEE11F6061CE00989B227505 /* Pods-FriendlyChatSwift-frameworks.sh */,
+				B4B3D757FB0FA35B919BF4DA7B307070 /* Pods-FriendlyChatSwift-resources.sh */,
+				839D3C4C858C2C3723B8D877A770322D /* Pods-FriendlyChatSwift-umbrella.h */,
+				B839D684F26F169115F65E62F4CFBC84 /* Pods-FriendlyChatSwift.debug.xcconfig */,
+				CEBFFB7C53143404DDD3A9C027FD42B6 /* Pods-FriendlyChatSwift.release.xcconfig */,
+			);
+			name = "Pods-FriendlyChatSwift";
+			path = "Target Support Files/Pods-FriendlyChatSwift";
+			sourceTree = "<group>";
+		};
+		0B3A712249C11D41AF14715E4B77263B /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				7B7FD1F885E16315E9EE7982B1AF7E2E /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		13EEF89F1A4072ADBF2DC51209568740 /* FirebaseRemoteConfig */ = {
+			isa = PBXGroup;
+			children = (
+				C7563635E6BD6181F8A515207BA620CA /* Frameworks */,
+			);
+			path = FirebaseRemoteConfig;
+			sourceTree = "<group>";
+		};
+		19B1F34C14CB29692D9CC8AC455D6984 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				1EEC8316B7BE6F0397940FC05EB0A843 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		1EEC8316B7BE6F0397940FC05EB0A843 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBC71340B264FDF526647D0F10543B07 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F156283D73640AF5DAF27AC4B7D2F78 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				B107378C08EABA5374539C25CF6799B5 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		20F0D7A5232BC121321BE9A5CCB11524 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				F859552E2784A3F7EC695253871110CF /* FIRInstanceID.h */,
+				6E7B73488377CBE6E75ACFC527E8CA8A /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		23A35E0E8B1612C768730EDA3B75E474 /* GoogleParsingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				65A6B12380F39E40348A6A0A3EB63BCE /* Frameworks */,
+			);
+			path = GoogleParsingUtilities;
+			sourceTree = "<group>";
+		};
+		26E5F9E09BED051BD9A0D0D7205C2EDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86DD4170CBC7BCF5E4DD031956B6E168 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		49C051546474EB73D572CF0EFFE0B393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8F2241E9A2FCE8AF53834B1C386AF8A /* Pods_FriendlyChatSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D321E0E7A8EDB0818FDBC50A8546430 /* GoogleIPhoneUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8231F8E758ECEDE3DA9111E34F506628 /* Frameworks */,
+			);
+			path = GoogleIPhoneUtilities;
+			sourceTree = "<group>";
+		};
+		5D975EED04ED06703F137E041D73810C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7FD5FE5774D3FACEEDCF6C082D90712 /* FirebaseCrash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65A6B12380F39E40348A6A0A3EB63BCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7716201FD387B6D0A305C95215616A9A /* GoogleParsingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E7B73488377CBE6E75ACFC527E8CA8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91FE1C734ED5478A578556DEA6614DDC /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7492D28AA46AB0FB1F5131C6AF0B2623 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				DDE72D6C9883F3C5DFFDDCC17D6F0B95 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		7B7FD1F885E16315E9EE7982B1AF7E2E /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				03689C417845BF129EDCD8BEFC9FDAE4 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		7D315F7498A8FDB459F257E50CC323B6 /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				B86307DCC3464E333B7A0A6F4BB914F7 /* Frameworks */,
+			);
+			path = FirebaseStorage;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CFFFBA3FA0AE516E68CCA1A95A440344 /* Pods */,
+				49C051546474EB73D572CF0EFFE0B393 /* Products */,
+				09FCD4BAAA003BAE3CDE31D1CA835130 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8231F8E758ECEDE3DA9111E34F506628 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77D8CFD62DBE7B74765C681924FA3310 /* GoogleIPhoneUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F23D7D114E85AA715B75AD987DD1AA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCFCAC3822AC5B6CF049DF7CA37EF4D5 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90C9DACDE0A8B718D038FA4467E34C89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44A3BA46C93D467F8AC8110CA6B07610 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B883C061ECC4CC9A0F7B7EB5074EFB8 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				E8169E21CAF076F88C7C87133CD0EC5A /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		A72749EB5C64DFC3F58B3BE7565C1030 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				26E5F9E09BED051BD9A0D0D7205C2EDE /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		B107378C08EABA5374539C25CF6799B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C4F50420ADA8C3023A4C452505EC067 /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B86307DCC3464E333B7A0A6F4BB914F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAF3A4BBDF369F163BCA8E46EA6D108C /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7563635E6BD6181F8A515207BA620CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F3EB0713F8EB7465904BF4B4881C746 /* FirebaseRemoteConfig.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE6B6F50CD65C38B232F2368594E46E5 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				095B5EBCF5AF2C186D3608CB207B33F5 /* Frameworks */,
+			);
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		CFFFBA3FA0AE516E68CCA1A95A440344 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A712249C11D41AF14715E4B77263B /* Firebase */,
+				9B883C061ECC4CC9A0F7B7EB5074EFB8 /* FirebaseAnalytics */,
+				1F156283D73640AF5DAF27AC4B7D2F78 /* FirebaseAuth */,
+				E8A3D2B5B559392C2A762898AC86AD7E /* FirebaseCrash */,
+				A72749EB5C64DFC3F58B3BE7565C1030 /* FirebaseDatabase */,
+				20F0D7A5232BC121321BE9A5CCB11524 /* FirebaseInstanceID */,
+				13EEF89F1A4072ADBF2DC51209568740 /* FirebaseRemoteConfig */,
+				7D315F7498A8FDB459F257E50CC323B6 /* FirebaseStorage */,
+				CE6B6F50CD65C38B232F2368594E46E5 /* Google-Mobile-Ads-SDK */,
+				7492D28AA46AB0FB1F5131C6AF0B2623 /* GoogleInterchangeUtilities */,
+				4D321E0E7A8EDB0818FDBC50A8546430 /* GoogleIPhoneUtilities */,
+				19B1F34C14CB29692D9CC8AC455D6984 /* GoogleNetworkingUtilities */,
+				23A35E0E8B1612C768730EDA3B75E474 /* GoogleParsingUtilities */,
+				D66430FEB04AC4C3D13EAA2AD2025230 /* GoogleSymbolUtilities */,
+				FE08C43747B06F219DBB341B33D68232 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D66430FEB04AC4C3D13EAA2AD2025230 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8F23D7D114E85AA715B75AD987DD1AA5 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		DDE72D6C9883F3C5DFFDDCC17D6F0B95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A2BA0A18657ADFF98EC02B44482DD42 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8169E21CAF076F88C7C87133CD0EC5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0562A09F132F45237533EE2BB89D3144 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8A3D2B5B559392C2A762898AC86AD7E /* FirebaseCrash */ = {
+			isa = PBXGroup;
+			children = (
+				5D975EED04ED06703F137E041D73810C /* Frameworks */,
+			);
+			path = FirebaseCrash;
+			sourceTree = "<group>";
+		};
+		FE08C43747B06F219DBB341B33D68232 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				90C9DACDE0A8B718D038FA4467E34C89 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ABB17675D6CCC7A0D0CBC99E5E5C329D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC22C6F3F94635F26C1778BEB72C620 /* Pods-FriendlyChatSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F32EAD16C119C2B51BDF2F7D308B48B /* Pods-FriendlyChatSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D6F35434E41EE073EFC5C9D9F6B5AE /* Build configuration list for PBXNativeTarget "Pods-FriendlyChatSwift" */;
+			buildPhases = (
+				F0BCE004F7FB71DE5C54367814D1963B /* Sources */,
+				F688B7A7D9A45C81E3AE9D8009638B55 /* Frameworks */,
+				ABB17675D6CCC7A0D0CBC99E5E5C329D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FriendlyChatSwift";
+			productName = "Pods-FriendlyChatSwift";
+			productReference = B8F2241E9A2FCE8AF53834B1C386AF8A /* Pods_FriendlyChatSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 49C051546474EB73D572CF0EFFE0B393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F32EAD16C119C2B51BDF2F7D308B48B /* Pods-FriendlyChatSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0BCE004F7FB71DE5C54367814D1963B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E097F3E10BF98FCAA0AAC69FEAE93DE /* Pods-FriendlyChatSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A4A7D4D9F27773045B130C4FCD843CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B839D684F26F169115F65E62F4CFBC84 /* Pods-FriendlyChatSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FriendlyChatSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FriendlyChatSwift/Pods-FriendlyChatSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FriendlyChatSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2FBC7E47D4716D07AEDF8257BBD6724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEBFFB7C53143404DDD3A9C027FD42B6 /* Pods-FriendlyChatSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FriendlyChatSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FriendlyChatSwift/Pods-FriendlyChatSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FriendlyChatSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D6F35434E41EE073EFC5C9D9F6B5AE /* Build configuration list for PBXNativeTarget "Pods-FriendlyChatSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4A7D4D9F27773045B130C4FCD843CA1 /* Debug */,
+				D2FBC7E47D4716D07AEDF8257BBD6724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
